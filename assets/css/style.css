@@ -1,0 +1,81 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(5, 83, 4);
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+nav{
+    text-align: right;  
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#seperate{
+    padding: 5px;
+    background-color: pink;
+}
+
+img{
+    width: 200px
+}
+footer{
+    background-color:  rgb(5, 83, 4);
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding: 5px
+}
+
+a{
+    margin-right: 20px;
+}
+
+
+h1{
+    margin: 0px;
+}
+
+section,.title, div{
+    background-color:lavender;
+    text-align: center;
+}
+
+.contact{
+border: solid;
+border-width: 5px 0 0 0;
+border-color: pink;
+padding: 10px 0;
+}
+
+.form-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+border: solid;
+width: 70%;
+
+}
+
+
+
+.info{
+    text-decoration: solid;
+    
+}
+
+#submit{
+    background-color: rgb(68, 57, 41);
+    color:white;
+}
